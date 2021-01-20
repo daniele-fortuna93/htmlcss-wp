@@ -13,9 +13,17 @@ body{
   clear: both;
 }
 .container{
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding: 10px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 /* intestazione */
 .logo{
@@ -38,12 +46,38 @@ body{
   margin-right: 10px;
 }
 /* /intestazione */
+
 /* corpo centrale */
+/* banner */
 .banner{
-  height: 250px;
-  background-color: #cc7722;
+  position: relative;
   margin: 20px 0;
 }
+.banner img, .overlay, .banner{
+  border-radius: 15px;
+}
+.banner img{
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.text-banner{
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  width: 60%;
+  color: white;
+}
+.text-banner h3{
+  font-size: 38px;
+  font-weight: 500;
+}
+.text-banner p{
+  font-size: 15px;
+  font-weight: 200;
+}
+/* /banner */
 .box{
   background-color: blue;
   margin-bottom: 5px;
