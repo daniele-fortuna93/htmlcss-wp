@@ -15,7 +15,6 @@ body{
 .container{
   width: 80%;
   margin: auto;
-  padding: 10px;
 }
 .overlay{
   position: absolute;
@@ -59,7 +58,7 @@ body{
 .banner img{
   display: block;
   width: 100%;
-  height: 600px;
+  height: 600px;;
   object-fit: cover;
 }
 .text-banner{
@@ -95,11 +94,17 @@ body{
 .row{
   padding: 2% 0;
 }
+/* inizio column box */
 .column{
   float: left;
 }
 .column-img{
   position: relative;
+}
+.banner-box, .column-img img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 .column h4{
   margin: 15px 0 10px 0;
@@ -111,15 +116,21 @@ body{
   font-weight: 200;
 }
 .column_left, .column_right{
-  width: 24%;
+  width: 20%;
 }
 .column_middle{
-  width: 50%;
+  width: 56%;
   margin: 0 1%;
 }
+/* inizio column box */
 /* footer */
 footer{
-  height: 50px;
-  background-color: purple;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 200;
+}
+#heart{
+  color: red;
 }
 /* /footer */
