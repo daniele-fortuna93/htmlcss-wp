@@ -36,13 +36,21 @@ body{
 .nav-bar{
   margin-top: 20px;
 }
-.nav-bar a{
+.nav-bar ul li{
   display: inline-block;
-  text-transform: uppercase;
-  color: #858585;
-  text-decoration: none;
-  font-weight: 300;
   margin-right: 10px;
+}
+.nav-bar ul li a{
+  padding: 3px;
+  display: inline-block;
+  font-weight: 300;
+  text-decoration: none;
+  color: #858585;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba( 0, 0, 0, 0.0) ;
+}
+.nav-bar li:hover a{
+  border-bottom: 1px solid  #858585;
 }
 /* /intestazione */
 
