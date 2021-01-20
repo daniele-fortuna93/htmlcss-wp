@@ -4,21 +4,38 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .clearfix::after{
   content: "";
   display: block;
   clear: both;
 }
-
 .container{
   width: 90%;
   margin: auto;
   padding: 10px;
 }
 /* intestazione */
-header{
-  height: 100px;
-  background-color: pink;
+.logo{
+  width: 200px;
+  border-right: 1px solid #e9e9e9;
+  padding-right: 20px;
+}
+.logo img{
+  width: 100%;
+}
+.nav-bar{
+  margin-top: 20px;
+}
+.nav-bar a{
+  display: inline-block;
+  text-transform: uppercase;
+  color: #858585;
+  text-decoration: none;
+  font-weight: 300;
+  margin-right: 10px;
 }
 /* /intestazione */
 /* corpo centrale */
