@@ -24,6 +24,23 @@ body{
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
+/* effetti hover */
+.nav-bar li:hover a{
+  border-bottom: 1px solid  #858585;
+}
+.banner:hover .overlay{
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.column:hover .overlay{
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.column:hover .underline{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* /effetti hover */
 /* intestazione */
 .logo{
   width: 200px;
@@ -49,9 +66,6 @@ body{
   text-transform: uppercase;
   border-bottom: 1px solid rgba( 0, 0, 0, 0.0) ;
 }
-.nav-bar li:hover a{
-  border-bottom: 1px solid  #858585;
-}
 /* /intestazione */
 
 /* corpo centrale */
@@ -75,6 +89,7 @@ body{
   left: 30px;
   width: 60%;
   color: white;
+  cursor: pointer;
 }
 .text-banner h3{
   font-size: 38px;
@@ -112,7 +127,7 @@ body{
   height: 250px;
   object-fit: cover;
 }
-.column h4, .column p{
+.underline{
   font-weight: 300;
   font-size: 15px;
   margin-top: 15px;
