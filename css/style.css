@@ -79,15 +79,19 @@ body{
 }
 /* /banner */
 .box{
-  background-color: blue;
   margin-bottom: 5px;
 }
-.title{
-  height: 50px;
+/* titolo section box */
+.title h2{
+  font-size: 45px;
+  font-weight: 500;
 }
-.column, .title{
-  background-color: lightblue;
+.title p{
+  font-size: 18px;
+  color: #929292;
+  font-weight: 200;
 }
+/* /titolo section box */
 .row{
   padding: 1% 0;
 }
